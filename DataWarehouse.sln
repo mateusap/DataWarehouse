@@ -5,18 +5,30 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DataWarehouse", "DataWarehouse\DataWarehouse.sqlproj", "{E526A2AE-2C0E-433F-91C4-2A6DBFA3E98F}"
 EndProject
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "CargaDataWarehouse", "CargaDataWarehouse\CargaDataWarehouse.dtproj", "{89A097FC-3440-4BFB-A23A-2330196913D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E526A2AE-2C0E-433F-91C4-2A6DBFA3E98F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E526A2AE-2C0E-433F-91C4-2A6DBFA3E98F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E526A2AE-2C0E-433F-91C4-2A6DBFA3E98F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E526A2AE-2C0E-433F-91C4-2A6DBFA3E98F}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{E526A2AE-2C0E-433F-91C4-2A6DBFA3E98F}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{E526A2AE-2C0E-433F-91C4-2A6DBFA3E98F}.Development|Any CPU.Deploy.0 = Debug|Any CPU
 		{E526A2AE-2C0E-433F-91C4-2A6DBFA3E98F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E526A2AE-2C0E-433F-91C4-2A6DBFA3E98F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E526A2AE-2C0E-433F-91C4-2A6DBFA3E98F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{89A097FC-3440-4BFB-A23A-2330196913D2}.Debug|Any CPU.ActiveCfg = Development
+		{89A097FC-3440-4BFB-A23A-2330196913D2}.Debug|Any CPU.Build.0 = Development
+		{89A097FC-3440-4BFB-A23A-2330196913D2}.Development|Any CPU.ActiveCfg = Development
+		{89A097FC-3440-4BFB-A23A-2330196913D2}.Development|Any CPU.Build.0 = Development
+		{89A097FC-3440-4BFB-A23A-2330196913D2}.Release|Any CPU.ActiveCfg = Development
+		{89A097FC-3440-4BFB-A23A-2330196913D2}.Release|Any CPU.Build.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
