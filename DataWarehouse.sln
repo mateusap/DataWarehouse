@@ -7,6 +7,8 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DataWarehouse", "DataWareho
 EndProject
 Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "CargaDataWarehouse", "CargaDataWarehouse\CargaDataWarehouse.dtproj", "{89A097FC-3440-4BFB-A23A-2330196913D2}"
 EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "OLAPAlura", "OLAPAlura\OLAPAlura.dwproj", "{64A6FEC7-F498-4ED7-8E69-61AF838DE86D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,15 @@ Global
 		{89A097FC-3440-4BFB-A23A-2330196913D2}.Development|Any CPU.Build.0 = Development
 		{89A097FC-3440-4BFB-A23A-2330196913D2}.Release|Any CPU.ActiveCfg = Development
 		{89A097FC-3440-4BFB-A23A-2330196913D2}.Release|Any CPU.Build.0 = Development
+		{64A6FEC7-F498-4ED7-8E69-61AF838DE86D}.Debug|Any CPU.ActiveCfg = Development
+		{64A6FEC7-F498-4ED7-8E69-61AF838DE86D}.Debug|Any CPU.Build.0 = Development
+		{64A6FEC7-F498-4ED7-8E69-61AF838DE86D}.Debug|Any CPU.Deploy.0 = Development
+		{64A6FEC7-F498-4ED7-8E69-61AF838DE86D}.Development|Any CPU.ActiveCfg = Development
+		{64A6FEC7-F498-4ED7-8E69-61AF838DE86D}.Development|Any CPU.Build.0 = Development
+		{64A6FEC7-F498-4ED7-8E69-61AF838DE86D}.Development|Any CPU.Deploy.0 = Development
+		{64A6FEC7-F498-4ED7-8E69-61AF838DE86D}.Release|Any CPU.ActiveCfg = Development
+		{64A6FEC7-F498-4ED7-8E69-61AF838DE86D}.Release|Any CPU.Build.0 = Development
+		{64A6FEC7-F498-4ED7-8E69-61AF838DE86D}.Release|Any CPU.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
